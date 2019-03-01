@@ -1,0 +1,13 @@
+#修改监控端口
+server:
+  port: 9066
+#如果pom继承了spring-boot-starter-parent，SpringBoot已经将maven-resources-plugins默认的${}方式改为了@@方式
+spring:
+  profiles:
+    active: dev
+  metrics:
+      servo:
+        enabled: false
+  application:
+    name: yt-business
+

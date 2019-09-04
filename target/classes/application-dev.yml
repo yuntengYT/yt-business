@@ -1,9 +1,0 @@
-
-redis:
-  hostName: 127.0.0.1
-  port: 6379
-  password: yt123
-  database: 3
-  minIdle: 20
-  maxIdle: 50
-  maxTotal: 50

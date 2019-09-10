@@ -16,7 +16,7 @@ public class ScheduledServiceTask {
 	@Autowired
 	private PrintTask printTask;
 
-	@Scheduled(cron = "0/5 * * * * ?")
+	//@Scheduled(cron = "0/5 * * * * ?")
 	public void scheduled(){
 		log.info("=====>>>>>使用cron  {}",System.currentTimeMillis());
 		printTask.printTask();
